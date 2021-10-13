@@ -1,0 +1,29 @@
+body { 
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.btn-rock {
+    background-color: rgb(66, 66, 55);
+    color: rgb(253, 248, 241);
+}
+
+.btn-paper {
+    background-color: rgb(221, 221, 198);
+    color: rgb(66, 66, 55);
+}
+
+.btn-scissors {
+    background-color: rgb(139, 139, 138);
+    color: rgb(34, 34, 28);}
+
+    .imgsz {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
