@@ -36,7 +36,7 @@ let rpsArr = [
 
 function rps(playerChoice) {
     const compChoice = randomRPS()
-
+    let hid = document.getElementById('message').removeAttribute('hidden')
     console.log('player picked:', playerChoice, 'computer picked: ', compChoice)
     if (playerChoice == 'paper' && compChoice.name == "paper") {
         document.getElementById('message').innerText = 'You tied!'
