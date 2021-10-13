@@ -22,8 +22,40 @@ main {
     background-color: rgb(139, 139, 138);
     color: rgb(34, 34, 28);}
 
-    .imgsz {
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-    }
+.imgsz {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.btn-rock:hover {
+    background-color: rgb(196, 196, 164);
+    color: rgb(68, 67, 64);
+}
+
+.btn-paper:hover {
+    background-color: rgb(107, 107, 95);
+    color: rgb(241, 241, 200);
+}
+
+.btn-scissors:hover {
+    background-color: rgb(201, 201, 199);
+    color: rgb(34, 34, 28);}
+
+    .btn-rock:active {
+    background-color: rgb(66, 66, 55);
+    color: rgb(253, 248, 241);
+    transform: scale(1.3);
+}
+
+.btn-paper:active {
+    background-color: rgb(221, 221, 198);
+    color: rgb(66, 66, 55);
+    transform: scale(1.3);
+}
+
+.btn-scissors:active {
+    background-color: rgb(139, 139, 138);
+    color: rgb(34, 34, 28);
+    transform: scale(1.3);
+}
